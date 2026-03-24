@@ -52,7 +52,16 @@ Download entire Grok projects with all associated media files organized in folde
 
 ## Changelog
 
-### v2.2.5 (Latest)
+### v2.2.6 (Latest)
+- Video download rate limit protection (auto-pause every 250 videos to avoid Grok 429 errors)
+- Improved button naming (Clear Download Preview List / Reset Download History)
+- Resume progress display (X/Y completed, click to continue)
+- Button shows "Continue Download" after interruption
+- Generate List real-time progress display
+- Fixed 64MB Chrome messaging limit with large media items
+- Memory usage optimization
+
+### v2.2.5
 - Bug fixes and performance improvements
 
 ### v2.2.0
