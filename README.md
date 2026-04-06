@@ -49,11 +49,11 @@ Download entire Grok projects with all associated media files organized in folde
 | Date range filter | ✅ | ✅ |
 | Export/Import media list | ✅ | ✅ |
 | Custom Filename Templates | ✅ | ✅ |
-| Video stream capture | 3 per day | ✅ Unlimited |
-| HD image upgrade | 5 per day | ✅ Unlimited |
-| Video Generation Queue | 3 per day | ✅ Unlimited |
-| Story Mode | 1 per day | ✅ Unlimited |
-| Project downloads | 1 per day | ✅ Unlimited |
+| Video stream capture | ❌ | ✅ |
+| HD image upgrade | ❌ | ✅ |
+| Video Generation Queue | 50 uses | ✅ Unlimited |
+| Story Mode | ✅ (no merge export) | ✅ Full |
+| Project downloads | ✅ | ✅ |
 | Tag-Based Download | ❌ | ✅ |
 
 **PRO License**: One-time purchase, lifetime access. [Get PRO →](https://grokmedia.kario-studio.com/pricing.html)
