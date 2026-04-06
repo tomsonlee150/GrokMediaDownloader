@@ -15,12 +15,18 @@
 
 ## Features
 
+### Tag-Based Download ✨ NEW
+Download media from a specific Grok tag (folder). Select a tag, download all media within it. Each tag has separate download history, files organized under `tags/{tagName}/`.
+
+### Custom Filename Templates ✨ NEW
+Three filename modes: **Grok Native** (original format), **Prompt Based** (uses your prompt text), or **Custom** (free-form templates with tokens like `{date}`, `{prompt}`, `{quality}`). Available to all users.
+
 ### Video Generation Queue
 Automatically queue and track multiple video generation tasks. Monitor progress and download completed videos in batch.
 [Learn more →](https://grokmedia.kario-studio.com/video-gen-queue.html)
 
 ### Story Mode
-Create multi-scene stories with consistent characters. Generate and download complete visual narratives.
+Create multi-scene stories with consistent characters. Interactive filmstrip lets you select any frame for continuation. Frame Lock auto-locks your selection and trims on export for seamless transitions.
 [Learn more →](https://grokmedia.kario-studio.com/story-mode.html)
 
 ### Batch Download
@@ -42,17 +48,27 @@ Download entire Grok projects with all associated media files organized in folde
 | Batch image download | ✅ | ✅ |
 | Date range filter | ✅ | ✅ |
 | Export/Import media list | ✅ | ✅ |
+| Custom Filename Templates | ✅ | ✅ |
 | Video stream capture | 3 per day | ✅ Unlimited |
 | HD image upgrade | 5 per day | ✅ Unlimited |
 | Video Generation Queue | 3 per day | ✅ Unlimited |
 | Story Mode | 1 per day | ✅ Unlimited |
 | Project downloads | 1 per day | ✅ Unlimited |
+| Tag-Based Download | ❌ | ✅ |
 
 **PRO License**: One-time purchase, lifetime access. [Get PRO →](https://grokmedia.kario-studio.com/pricing.html)
 
 ## Changelog
 
-### v2.2.6 (Latest)
+### v2.3.0 (Latest)
+- **Tag-Based Download**: Download media by tag folder with separate download history per tag
+- **Custom Filename Templates**: Three-mode filename selector (Grok Native / Prompt Based / Custom with tokens)
+- **Frame Lock & Trim**: Select any frame via filmstrip for video continuation, auto-trim on export for seamless transitions
+- **Queue fixes**: Fixed video post page redirect loop, "Make Video" button disabled state, and retry logic
+- **HD Upgrade**: Proper await for upscale requests with rate limit handling and accurate failure tracking
+- **Download abort**: Fixed cancel button state not updating properly
+
+### v2.2.6
 - Video download rate limit protection (auto-pause every 250 videos to avoid Grok 429 errors)
 - Improved button naming (Clear Download Preview List / Reset Download History)
 - Resume progress display (X/Y completed, click to continue)
